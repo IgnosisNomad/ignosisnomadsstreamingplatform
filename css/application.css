@@ -1,0 +1,91 @@
+.full-screen {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-image: url('./../images/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: color-dodge;s
+}
+
+
+label, .radio label, .checkbox label, .help-block {
+     font-size: 15px;
+}
+
+.modal {
+  text-align: center;
+}
+
+@media screen and (min-width: 2300px) { /*768px*/
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+  }
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+  
+  
+    width: auto !important;
+	  min-width: 50% !important; 
+  max-width: 90% !important; 
+}
+
+.btn span.glyphicon-ok {
+	opacity: 0;
+}
+.btn.active span.glyphicon-ok {
+	opacity: 1;
+}
+
+.modal-footer {
+   /* padding-bottom: 5px;*/
+}
+
+#resolution {
+    font-family: monospace;
+}
+
+.chat-container{
+	flex-direction: column;
+	height:70%;
+    flex: 1 1 0%;
+display:flex;
+position:relative;
+}
+
+.chat-head {
+	
+}
+
+.chat-messages {
+	overflow:hidden;
+	flex-grow:1;
+	flex-shrink:1;
+	position:relative;
+}
+
+.chat-bottom {
+	flex-direction:column;
+	flex-shrink:0;
+	width:100%;
+	display:flex;
+	position:relative;
+}
+
+textarea {
+   resize: none;
+}
