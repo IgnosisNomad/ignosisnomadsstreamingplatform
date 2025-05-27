@@ -1,3 +1,4 @@
 .idea/
 js/application.js
 js/application.min.js
+minify.cmd
